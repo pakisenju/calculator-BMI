@@ -4,11 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@200&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 </head>
 
 <body>
+    <div id="content" class="color-change-5x">
+        <div id="calculator-bmi">
+            <div id="title">
+                <h1>BMI Calculator</h1>
+                <p>Enter your weight and height below to check your BMI results</p>
+            </div>
 
+            <div id="input">
+                <label for="">Weight (KG)</label>
+                <input id="input-berat" type="number" placeholder="0">
+                <label for="">Height (CM)</label>
+                <input id="input-tinggi" type="number" placeholder="0">
+            </div>
+
+            <div id="button">
+                <button type="button" onclick="">Calculate</button>
+                <button id="clear" type="button" onclick="">Clear</button>
+            </div>
+
+            <div id="hasil-bmi"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
